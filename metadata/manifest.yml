@@ -2,12 +2,14 @@ Name: redis
 Cartridge-Short-Name: REDIS
 Display-Name: Redis
 Version: "2.6"
+Description: Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
 Website: https://github.com/smarterclayton/openshift-redis-cart
 Cartridge-Version: 0.1.0
-Cartridge-Vendor: smarterclayton
+Cartridge-Vendor: redhat
 Categories:
   - service
   - database
+  - cache
   - embedded
 Provides:
   - redis-2.6
