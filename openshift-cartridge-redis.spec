@@ -41,3 +41,6 @@ Provides Redis cartridge support to OpenShift.
 %doc %{cartridgedir}/README.md
 
 %changelog
+* Mon Mar 16 2015 Builder <getup@getupcloud.com> 0.1.0-0
+- new package built with tito
+
