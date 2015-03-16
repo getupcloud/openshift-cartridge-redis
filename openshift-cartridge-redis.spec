@@ -3,7 +3,7 @@
 Summary:       Provides embedded Redis support
 Name:          openshift-cartridge-redis
 Version:       0.1.0
-Release:       0%{?dist}
+Release:       1%{?dist}
 Group:         Network/Daemons
 License:       ASL 2.0
 URL:           http://redis.io
@@ -14,7 +14,7 @@ Requires:      php55-php-pecl-redis
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util
 Provides:      openshift-cartridge-redis = 0.1
-BuildArch:     noarch
+BuildArch:     x86_64
 
 %description
 Provides Redis cartridge support to OpenShift.
